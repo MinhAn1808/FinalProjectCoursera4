@@ -91,15 +91,15 @@ figcaption {
         grid-column: 1/ span 2;
     }
     figure {
+        border-radius: 0px;
         border: none;
-        border-radius: 0;
         margin: 50px;
     }
 
     img {
+        border-radius: 0px;
         border: none;
         width: 100%;
-        border-radius: 0;
         height: 90%;
     }
 
@@ -114,9 +114,8 @@ figcaption {
 }
 @media (prefers-reduced-motion: reduce) {
 
-    * {
-        animation: none !important;
-        transition: none !important;
+    html {
+    scroll-behavior: auto;
     }
 }
 @media (prefers-color-scheme: dark) {
