@@ -92,12 +92,14 @@ figcaption {
     }
     figure {
         border: none;
+        border-radius: 0;
         margin: 50px;
     }
 
     img {
         border: none;
         width: 100%;
+        border-radius: 0;
         height: 90%;
     }
 
@@ -120,16 +122,15 @@ figcaption {
 @media (prefers-color-scheme: dark) {
 
     img {
-        background-color: #333; /* Ví dụ màu xám tối cho nền hình ảnh */
+        background-color: #333; 
     }
 
-
     figcaption {
-        color: #FFD700; /* Màu vàng cho chữ */
+        color: #FFD700; 
     }
 
 
     figure {
-        border: 5px solid #000; /* Đường viền màu đen */
+        border: 5px solid #000;
     }
 }
